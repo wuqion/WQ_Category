@@ -10,10 +10,33 @@
 		08063CC4CCF8D6D297508C5ED719B6B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		0D56326478B8D408B596A9A289B5423A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		0F9861CF648EF9BCE713D95FA76468EE /* Pods-WQ_Category_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 917C835D06B2E07027C7618BAA892855 /* Pods-WQ_Category_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21EEFC8C226979A60087534E /* UIImage+WQ_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEFC80226979A50087534E /* UIImage+WQ_Extension.m */; };
+		21EEFC8D226979A60087534E /* UIImage+WQ_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEFC80226979A50087534E /* UIImage+WQ_Extension.m */; };
+		21EEFC8E226979A60087534E /* UINavigationBar+WQ_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEFC81226979A50087534E /* UINavigationBar+WQ_Extension.h */; };
+		21EEFC8F226979A60087534E /* UINavigationBar+WQ_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEFC81226979A50087534E /* UINavigationBar+WQ_Extension.h */; };
+		21EEFC90226979A60087534E /* NSDictionary+WQ_SafeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEFC82226979A50087534E /* NSDictionary+WQ_SafeValue.m */; };
+		21EEFC91226979A60087534E /* NSDictionary+WQ_SafeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEFC82226979A50087534E /* NSDictionary+WQ_SafeValue.m */; };
+		21EEFC92226979A60087534E /* NSNull+WQ_SafeValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEFC83226979A50087534E /* NSNull+WQ_SafeValue.h */; };
+		21EEFC93226979A60087534E /* NSNull+WQ_SafeValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEFC83226979A50087534E /* NSNull+WQ_SafeValue.h */; };
+		21EEFC94226979A60087534E /* NSDate+WQ_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEFC84226979A50087534E /* NSDate+WQ_Extension.h */; };
+		21EEFC95226979A60087534E /* NSDate+WQ_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEFC84226979A50087534E /* NSDate+WQ_Extension.h */; };
+		21EEFC96226979A60087534E /* UIView+WQ_Corners.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEFC85226979A50087534E /* UIView+WQ_Corners.h */; };
+		21EEFC97226979A60087534E /* UIView+WQ_Corners.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEFC85226979A50087534E /* UIView+WQ_Corners.h */; };
+		21EEFC98226979A60087534E /* UIView+WQ_Corners.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEFC86226979A50087534E /* UIView+WQ_Corners.m */; };
+		21EEFC99226979A60087534E /* UIView+WQ_Corners.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEFC86226979A50087534E /* UIView+WQ_Corners.m */; };
+		21EEFC9A226979A60087534E /* NSNull+WQ_SafeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEFC87226979A60087534E /* NSNull+WQ_SafeValue.m */; };
+		21EEFC9B226979A60087534E /* NSNull+WQ_SafeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEFC87226979A60087534E /* NSNull+WQ_SafeValue.m */; };
+		21EEFC9C226979A60087534E /* UIImage+WQ_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEFC88226979A60087534E /* UIImage+WQ_Extension.h */; };
+		21EEFC9D226979A60087534E /* UIImage+WQ_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEFC88226979A60087534E /* UIImage+WQ_Extension.h */; };
+		21EEFC9E226979A60087534E /* UINavigationBar+WQ_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEFC89226979A60087534E /* UINavigationBar+WQ_Extension.m */; };
+		21EEFC9F226979A60087534E /* UINavigationBar+WQ_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEFC89226979A60087534E /* UINavigationBar+WQ_Extension.m */; };
+		21EEFCA0226979A60087534E /* NSDate+WQ_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEFC8A226979A60087534E /* NSDate+WQ_Extension.m */; };
+		21EEFCA1226979A60087534E /* NSDate+WQ_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEFC8A226979A60087534E /* NSDate+WQ_Extension.m */; };
+		21EEFCA2226979A60087534E /* NSDictionary+WQ_SafeValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEFC8B226979A60087534E /* NSDictionary+WQ_SafeValue.h */; };
+		21EEFCA3226979A60087534E /* NSDictionary+WQ_SafeValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEFC8B226979A60087534E /* NSDictionary+WQ_SafeValue.h */; };
 		65A784D987B214BE3362D16DDBD84CB1 /* Pods-WQ_Category_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FD665AD0D4DD939F5E0F9C2228A262 /* Pods-WQ_Category_Tests-dummy.m */; };
 		7ABF69ACBF8C3218647C67DF93EA86E2 /* WQ_Category-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 115F03E20EBC6701F42BB9D49CFECA69 /* WQ_Category-dummy.m */; };
 		B4680BBB1C9CDEB0E37ED3EDA5B3347D /* WQ_Category-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 625A0EBEE872106B161DC6DFB2FD17B5 /* WQ_Category-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C191DB96C80C56AFDC7BBEA22FD0E809 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF59671211DAD67BEFB0269EB924758 /* ReplaceMe.m */; };
 		C3B56DDD4FA9F22953F72C38D831C97C /* Pods-WQ_Category_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C902195468EB453B183F32365F9AB896 /* Pods-WQ_Category_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D07D2D16A3054EFB05588E070B12B2C0 /* Pods-WQ_Category_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 198BD828CAF90583712FC1D780FE1457 /* Pods-WQ_Category_Example-dummy.m */; };
 		E4147C6256A28BC465CCFB5BB7163844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
@@ -42,23 +65,34 @@
 		118E4EE8E555CAC2BF408ACC08D26ABE /* Pods-WQ_Category_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQ_Category_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		176445470F1230F8CBFA85030931D942 /* WQ_Category.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQ_Category.xcconfig; sourceTree = "<group>"; };
 		198BD828CAF90583712FC1D780FE1457 /* Pods-WQ_Category_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQ_Category_Example-dummy.m"; sourceTree = "<group>"; };
-		1EF59671211DAD67BEFB0269EB924758 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WQ_Category/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		21EEFC80226979A50087534E /* UIImage+WQ_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+WQ_Extension.m"; path = "WQ_Category/Classes/UIImage+WQ_Extension.m"; sourceTree = "<group>"; };
+		21EEFC81226979A50087534E /* UINavigationBar+WQ_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+WQ_Extension.h"; path = "WQ_Category/Classes/UINavigationBar+WQ_Extension.h"; sourceTree = "<group>"; };
+		21EEFC82226979A50087534E /* NSDictionary+WQ_SafeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+WQ_SafeValue.m"; path = "WQ_Category/Classes/NSDictionary+WQ_SafeValue.m"; sourceTree = "<group>"; };
+		21EEFC83226979A50087534E /* NSNull+WQ_SafeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNull+WQ_SafeValue.h"; path = "WQ_Category/Classes/NSNull+WQ_SafeValue.h"; sourceTree = "<group>"; };
+		21EEFC84226979A50087534E /* NSDate+WQ_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+WQ_Extension.h"; path = "WQ_Category/Classes/NSDate+WQ_Extension.h"; sourceTree = "<group>"; };
+		21EEFC85226979A50087534E /* UIView+WQ_Corners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+WQ_Corners.h"; path = "WQ_Category/Classes/UIView+WQ_Corners.h"; sourceTree = "<group>"; };
+		21EEFC86226979A50087534E /* UIView+WQ_Corners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+WQ_Corners.m"; path = "WQ_Category/Classes/UIView+WQ_Corners.m"; sourceTree = "<group>"; };
+		21EEFC87226979A60087534E /* NSNull+WQ_SafeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNull+WQ_SafeValue.m"; path = "WQ_Category/Classes/NSNull+WQ_SafeValue.m"; sourceTree = "<group>"; };
+		21EEFC88226979A60087534E /* UIImage+WQ_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+WQ_Extension.h"; path = "WQ_Category/Classes/UIImage+WQ_Extension.h"; sourceTree = "<group>"; };
+		21EEFC89226979A60087534E /* UINavigationBar+WQ_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+WQ_Extension.m"; path = "WQ_Category/Classes/UINavigationBar+WQ_Extension.m"; sourceTree = "<group>"; };
+		21EEFC8A226979A60087534E /* NSDate+WQ_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+WQ_Extension.m"; path = "WQ_Category/Classes/NSDate+WQ_Extension.m"; sourceTree = "<group>"; };
+		21EEFC8B226979A60087534E /* NSDictionary+WQ_SafeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+WQ_SafeValue.h"; path = "WQ_Category/Classes/NSDictionary+WQ_SafeValue.h"; sourceTree = "<group>"; };
 		3093D9FF748A6335000E986387DF26A5 /* Pods-WQ_Category_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQ_Category_Example-resources.sh"; sourceTree = "<group>"; };
-		36CDFD3AD957A8D94F3E645FC23AED00 /* WQ_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WQ_Category.framework; path = WQ_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CDFD3AD957A8D94F3E645FC23AED00 /* WQ_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WQ_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DCFBCD71C7BC4F1A9ED07F25F94CC7 /* Pods-WQ_Category_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQ_Category_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3F5EF4E03299A3B0C800CA1633725EF2 /* WQ_Category.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WQ_Category.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		43712869F3E1ACFFA48213F20908E968 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3F5EF4E03299A3B0C800CA1633725EF2 /* WQ_Category.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WQ_Category.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		43712869F3E1ACFFA48213F20908E968 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		503AE92D492583E5E7C5FE477F8ACF17 /* Pods-WQ_Category_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQ_Category_Example-frameworks.sh"; sourceTree = "<group>"; };
 		574468BD8B4F40C55E7EEEA7A39504E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		625A0EBEE872106B161DC6DFB2FD17B5 /* WQ_Category-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQ_Category-umbrella.h"; sourceTree = "<group>"; };
-		87238A3537F07F6A47E7B29B4AC00FA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		87238A3537F07F6A47E7B29B4AC00FA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8D490CA1A3F2B01E912072F2CABC617E /* Pods-WQ_Category_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQ_Category_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		917C835D06B2E07027C7618BAA892855 /* Pods-WQ_Category_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQ_Category_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0F4F85BF3E65AA317FFDCF1FF66D970 /* WQ_Category.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WQ_Category.modulemap; sourceTree = "<group>"; };
 		A1511EEC2C11C80895DA6D2DA73AAD7D /* Pods-WQ_Category_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQ_Category_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A29DB1E9ACA7E4277D56DEAE512AB075 /* Pods-WQ_Category_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQ_Category_Tests.modulemap"; sourceTree = "<group>"; };
-		A64E40E91F6CABFD44A2E50034527FC4 /* Pods_WQ_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQ_Category_Tests.framework; path = "Pods-WQ_Category_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64E40E91F6CABFD44A2E50034527FC4 /* Pods_WQ_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQ_Category_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4B68E45FF2A41D0FA6B67314CDC3645 /* Pods-WQ_Category_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQ_Category_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BD1A59100D03DBADB2ED264A560DEECA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8C0A3F0D4B9EE6670D2A86C01BE4118 /* Pods-WQ_Category_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQ_Category_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -69,7 +103,7 @@
 		E3199440A5ABF1BEBE67F055A401B65A /* WQ_Category-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQ_Category-prefix.pch"; sourceTree = "<group>"; };
 		E6B55A918C41037EA471F9DF4BF376E9 /* Pods-WQ_Category_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQ_Category_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E72A493BE0F67F5F56DFF5E6024C97C2 /* Pods-WQ_Category_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQ_Category_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EA065270A5C62889DB1629567424F3B3 /* Pods_WQ_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQ_Category_Example.framework; path = "Pods-WQ_Category_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA065270A5C62889DB1629567424F3B3 /* Pods_WQ_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQ_Category_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2A0FB44A2A9FA098FA68C1A119EE49 /* Pods-WQ_Category_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQ_Category_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FED1E8FC57C1D88D07809DEB65FC858B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,7 +204,18 @@
 		B0A2B28B782414704FAED8E4748300B1 /* WQ_Category */ = {
 			isa = PBXGroup;
 			children = (
-				1EF59671211DAD67BEFB0269EB924758 /* ReplaceMe.m */,
+				21EEFC84226979A50087534E /* NSDate+WQ_Extension.h */,
+				21EEFC8A226979A60087534E /* NSDate+WQ_Extension.m */,
+				21EEFC8B226979A60087534E /* NSDictionary+WQ_SafeValue.h */,
+				21EEFC82226979A50087534E /* NSDictionary+WQ_SafeValue.m */,
+				21EEFC83226979A50087534E /* NSNull+WQ_SafeValue.h */,
+				21EEFC87226979A60087534E /* NSNull+WQ_SafeValue.m */,
+				21EEFC88226979A60087534E /* UIImage+WQ_Extension.h */,
+				21EEFC80226979A50087534E /* UIImage+WQ_Extension.m */,
+				21EEFC81226979A50087534E /* UINavigationBar+WQ_Extension.h */,
+				21EEFC89226979A60087534E /* UINavigationBar+WQ_Extension.m */,
+				21EEFC85226979A50087534E /* UIView+WQ_Corners.h */,
+				21EEFC86226979A50087534E /* UIView+WQ_Corners.m */,
 				9B39DB6A96B861E4C25E997664D1FE61 /* Pod */,
 				D06655067EC081786BFB499DD603B7D2 /* Support Files */,
 			);
@@ -234,6 +279,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EEFCA3226979A60087534E /* NSDictionary+WQ_SafeValue.h in Headers */,
+				21EEFC8F226979A60087534E /* UINavigationBar+WQ_Extension.h in Headers */,
+				21EEFC97226979A60087534E /* UIView+WQ_Corners.h in Headers */,
+				21EEFC95226979A60087534E /* NSDate+WQ_Extension.h in Headers */,
+				21EEFC93226979A60087534E /* NSNull+WQ_SafeValue.h in Headers */,
+				21EEFC9D226979A60087534E /* UIImage+WQ_Extension.h in Headers */,
 				B4680BBB1C9CDEB0E37ED3EDA5B3347D /* WQ_Category-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +293,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EEFCA2226979A60087534E /* NSDictionary+WQ_SafeValue.h in Headers */,
+				21EEFC8E226979A60087534E /* UINavigationBar+WQ_Extension.h in Headers */,
+				21EEFC96226979A60087534E /* UIView+WQ_Corners.h in Headers */,
+				21EEFC94226979A60087534E /* NSDate+WQ_Extension.h in Headers */,
+				21EEFC92226979A60087534E /* NSNull+WQ_SafeValue.h in Headers */,
+				21EEFC9C226979A60087534E /* UIImage+WQ_Extension.h in Headers */,
 				0F9861CF648EF9BCE713D95FA76468EE /* Pods-WQ_Category_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,8 +427,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C191DB96C80C56AFDC7BBEA22FD0E809 /* ReplaceMe.m in Sources */,
+				21EEFC9B226979A60087534E /* NSNull+WQ_SafeValue.m in Sources */,
 				7ABF69ACBF8C3218647C67DF93EA86E2 /* WQ_Category-dummy.m in Sources */,
+				21EEFC99226979A60087534E /* UIView+WQ_Corners.m in Sources */,
+				21EEFC9F226979A60087534E /* UINavigationBar+WQ_Extension.m in Sources */,
+				21EEFC8D226979A60087534E /* UIImage+WQ_Extension.m in Sources */,
+				21EEFC91226979A60087534E /* NSDictionary+WQ_SafeValue.m in Sources */,
+				21EEFCA1226979A60087534E /* NSDate+WQ_Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +441,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EEFC9A226979A60087534E /* NSNull+WQ_SafeValue.m in Sources */,
 				D07D2D16A3054EFB05588E070B12B2C0 /* Pods-WQ_Category_Example-dummy.m in Sources */,
+				21EEFC98226979A60087534E /* UIView+WQ_Corners.m in Sources */,
+				21EEFC9E226979A60087534E /* UINavigationBar+WQ_Extension.m in Sources */,
+				21EEFC8C226979A60087534E /* UIImage+WQ_Extension.m in Sources */,
+				21EEFC90226979A60087534E /* NSDictionary+WQ_SafeValue.m in Sources */,
+				21EEFCA0226979A60087534E /* NSDate+WQ_Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,8 +630,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
